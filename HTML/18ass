@@ -1,1 +1,87 @@
-<ht
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amazon nav bar</title>
+    <style>
+      body {
+        margin: 0px;
+        font-family: sans-serif;
+      }
+
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #0f1111;
+        height: 60px;
+      }
+
+      ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+      }
+
+      li {
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      img {
+        width: 100px;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 12px;
+        object-fit: contain;
+      }
+
+      input {
+        width: 200px;
+        height: 15px;
+        border-radius: 5px;
+        padding: 5px;
+        border: none;
+      }
+
+      button {
+        background-color: #FFA500;
+        color: black;
+        padding: 5px 10px;
+        height: 25px;
+        border: none;
+        border-radius: 4px;
+        text-align: center;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <img src="https://www.pngplay.com/wp-content/uploads/3/White-Amazon-Logo-PNG-HD-Quality.png" alt="Logo">
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">My Cart</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">Log in</a></li>
+          <li><input type="text" placeholder="Search Amazon.in"></li>
+          <li><button>Search</button></li>
+
+        </ul>
+      </nav>
+    </header>
+
+  </body>
+
+</html>
